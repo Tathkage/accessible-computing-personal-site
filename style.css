@@ -1,0 +1,102 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header formatting */
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2em; /* 32px */
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.75em; /* 28px */
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.5em; /* 24px */
+    margin-bottom: 0.5em;
+}
+
+/* Paragraph styling */
+p {
+    margin: 20px 0;
+    font-size: 1em; /* 16px */
+}
+
+/* Link styling for accessibility */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List styling */
+ul, ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+/* Form styling */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="reset"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    cursor: pointer;
+    background-color: #0056b3;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #004494;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.8em;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.web-dev-icon {
+    width: 100px; /* Set the width to 100 pixels */
+    height: 100px; /* Set the height to 100 pixels */
+    display: block; /* Optional: makes it easier to manage layout */
+    margin: -1 auto; /* Optional: centers the image if within a block-level container */
+}
